@@ -94,7 +94,7 @@ export class HypopressGameComponent implements OnInit {
     scales: {
       yAxes: [{
         ticks: {
-          steps: 10,
+          steps: 5,
           stepValue: 0.2,
           max: 1,
           min: 0

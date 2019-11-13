@@ -1,9 +1,20 @@
 .progress-container {
-    padding: 1em 1em;
-    overflow: hidden;
-    height: 100%;
+  padding: 1em 1em;
+  overflow: hidden;
+  height: 100%;
 }
 
 .hypo-icon {
-    margin-right: 10px;
+  margin-right: 10px;
+}
+
+.charts {
+  padding-bottom: 1rem;
+  canvas {
+      margin-top: .5rem;
+  }
+}
+
+label {
+  font-weight: bold;
 }

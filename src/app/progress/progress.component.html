@@ -5,14 +5,50 @@
         <img src="assets/icon_2.png" width="50" height="50" />
         Physical activity
       </ng-template>
-      Content 1
+      <div class="charts-container">
+        <div class="mdc-layout-grid grid">
+          <div class="mdc-layout-grid__inner">
+            <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 charts">
+              <label>Weight</label>
+              <canvas baseChart height="50" [datasets]="lineChartDataWeight" [labels]="lineChartLabels"
+                [options]="lineChartOptionsWeight" [colors]="lineChartColors" [legend]="lineChartLegend"
+                [chartType]="lineChartType" [plugins]="lineChartPlugins">
+              </canvas>
+            </div>
+          </div>
+          <div class="mdc-layout-grid__inner">
+            <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 charts">
+              <label>Steps</label>
+              <canvas baseChart height="50" [datasets]="lineChartDataSteps" [labels]="lineChartLabels"
+                [options]="lineChartOptionsSteps" [colors]="lineChartColors" [legend]="lineChartLegend"
+                [chartType]="lineChartType" [plugins]="lineChartPlugins">
+              </canvas>
+            </div>
+          </div>
+          <div class="mdc-layout-grid__inner">
+            <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 charts">
+              <label>Waist perimeter</label>
+              <canvas baseChart height="50" [datasets]="lineChartDataPerimeter" [labels]="lineChartLabels"
+                [options]="lineChartOptionsPerimeter" [colors]="lineChartColors" [legend]="lineChartLegend"
+                [chartType]="lineChartType" [plugins]="lineChartPlugins">
+              </canvas>
+            </div>
+          </div>
+        </div>
+        <!-- weight -->
+        <!-- daily steps -->
+        <!-- abdominal perimeter -->
+      </div>
     </mat-tab>
     <mat-tab>
       <ng-template mat-tab-label>
         <img src="assets/icon_1.png" width="32" height="32" class="hypo-icon" />
         Hypo exercisses
       </ng-template>
-      Content 2
+      <div class="charts-container">
+        <!-- Apnea time -->
+        <!-- Max abdominal force -->
+      </div>
     </mat-tab>
   </mat-tab-group>
 </div>
