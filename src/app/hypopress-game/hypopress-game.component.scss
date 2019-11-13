@@ -1,0 +1,68 @@
+.container {
+  padding: 1em 1em;
+  overflow: hidden;
+  height: 100%;
+}
+
+.start-button {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  transform: translate(0,50%);
+}
+
+.go {
+  position: absolute;
+  top: 20%;
+  left: 32%;
+  transform: translate(0, 50%);
+  font-size: 10rem;
+}
+
+.title-container {
+  padding-top: .5rem;
+  text-align: center;
+  height: 2rem;
+  span {
+    font-weight: bold;
+    font-size: large;
+  }
+}
+
+.game-container {
+  padding-top: 1em;
+  height: 470px;
+  margin-bottom: 1rem;
+}
+
+.landscape {
+  background-image: url(../../assets/landscape.jpg);
+  background-repeat: no-repeat;
+}
+
+.baloon {
+  padding-top: 42%;
+  padding-left: 1.5em;
+  width: 55px;
+}
+
+.fmax {
+  padding-left: 2.9em;
+}
+
+.bar {
+  transform: rotate(-90deg);
+  top: 46%;
+  left: -114%;
+  width: 450px;
+  height: 25px;
+}
+
+.coin {
+  position: absolute;
+  top: 85%;
+}
+
+.charts {
+  width: 100%;
+}
