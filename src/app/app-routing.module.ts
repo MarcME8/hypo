@@ -7,9 +7,9 @@ import { HomeComponent } from './home/home.component';
 import { ProgressComponent } from './progress/progress.component';
 
 const routes: Routes = [
-  // { path: '', component: HomeComponent},
-  { path: '', component: HypopressGameComponent },
-  { path: 'aaa', component: ProgressComponent }
+  { path: '', component: HomeComponent},
+  { path: 'game', component: HypopressGameComponent },
+  { path: 'progress', component: ProgressComponent }
 ];
 
 @NgModule({

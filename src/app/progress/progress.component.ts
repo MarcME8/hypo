@@ -175,19 +175,19 @@ export class ProgressComponent implements OnInit {
   public lineChartDataFmax: ChartDataSets[] = [
     {
       data: [
-        5,
-        6,
-        6,
-        6,
-        8,
-        8,
-        8,
-        9,
-        10,
-        10,
-        12,
-        12,
-        14
+        80,
+        81,
+        83,
+        84,
+        85,
+        86,
+        88,
+        88,
+        89,
+        92,
+        96,
+        98,
+        98
       ]
     }
   ];
@@ -209,8 +209,8 @@ export class ProgressComponent implements OnInit {
     scales: {
       yAxes: [{
         ticks: {
-          max: 85,
-          min: 55
+          max: 100,
+          min: 75
         }
       }]
     }

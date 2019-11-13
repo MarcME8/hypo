@@ -1,1 +1,19 @@
-<p>home works!</p>
+<div class="mdc-layout-grid grid">
+  <div class="mdc-layout-grid__inner">
+    <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-5 nurse-image">
+    </div>
+    <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-7 buttons">
+      <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 logo">
+        <label class="title">
+          <label class="purple">hypo</label><label>press</label>
+        </label>
+        <img src="assets/hplogo.png" />
+      </div>
+      <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
+        <div [routerLink]="['game']" class="button play">PLAY</div>
+        <div [routerLink]="['progress']" class="button">ACHIEVEMENTS</div>
+        <div class="button">OPTIONS</div>
+      </div>
+    </div>
+  </div>
+</div>

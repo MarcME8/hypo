@@ -1,0 +1,36 @@
+.grid {
+  height: 100%;
+}
+
+.nurse-image {
+  background-image: url(../../assets/enfermera.png);
+  background-repeat: no-repeat;
+}
+
+.logo {
+  width: 100%;
+  text-align: center;
+  font-family: 'Andalus';
+  font-size: 5rem;
+
+  margin-bottom: 2rem;
+  .title {
+    margin-bottom: 2rem;
+  }
+  .purple {
+    color: purple;
+}
+}
+
+
+.button {
+  width: 85%;
+  text-align: center;
+  font-weight: bold;
+  font-size: x-large;
+  border: 2px solid;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
