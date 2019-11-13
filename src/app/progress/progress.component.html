@@ -9,7 +9,7 @@
         <div class="mdc-layout-grid grid">
           <div class="mdc-layout-grid__inner">
             <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 charts">
-              <label>Weight</label>
+              <label>Weight [kg]</label>
               <canvas baseChart height="50" [datasets]="lineChartDataWeight" [labels]="lineChartLabels"
                 [options]="lineChartOptionsWeight" [colors]="lineChartColors" [legend]="lineChartLegend"
                 [chartType]="lineChartType" [plugins]="lineChartPlugins">
@@ -27,7 +27,7 @@
           </div>
           <div class="mdc-layout-grid__inner">
             <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 charts">
-              <label>Waist perimeter</label>
+              <label>Waist perimeter [cm]</label>
               <canvas baseChart height="50" [datasets]="lineChartDataPerimeter" [labels]="lineChartLabels"
                 [options]="lineChartOptionsPerimeter" [colors]="lineChartColors" [legend]="lineChartLegend"
                 [chartType]="lineChartType" [plugins]="lineChartPlugins">
@@ -35,9 +35,6 @@
             </div>
           </div>
         </div>
-        <!-- weight -->
-        <!-- daily steps -->
-        <!-- abdominal perimeter -->
       </div>
     </mat-tab>
     <mat-tab>
@@ -46,8 +43,26 @@
         Hypo exercisses
       </ng-template>
       <div class="charts-container">
-        <!-- Apnea time -->
-        <!-- Max abdominal force -->
+        <div class="mdc-layout-grid grid">
+          <div class="mdc-layout-grid__inner">
+            <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 charts">
+              <label>Apnea [s]</label>
+              <canvas baseChart height="50" [datasets]="lineChartDataApnea" [labels]="lineChartLabels"
+                [options]="lineChartOptionsApnea" [colors]="lineChartColors" [legend]="lineChartLegend"
+                [chartType]="lineChartType" [plugins]="lineChartPlugins">
+              </canvas>
+            </div>
+          </div>
+          <div class="mdc-layout-grid__inner">
+            <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 charts">
+              <label>Abdominal activation [% Fmax]</label>
+              <canvas baseChart height="50" [datasets]="lineChartDataFmax" [labels]="lineChartLabels"
+                [options]="lineChartOptionsFmax" [colors]="lineChartColors" [legend]="lineChartLegend"
+                [chartType]="lineChartType" [plugins]="lineChartPlugins">
+              </canvas>
+            </div>
+          </div>
+        </div>
       </div>
     </mat-tab>
   </mat-tab-group>
