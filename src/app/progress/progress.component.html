@@ -46,8 +46,8 @@
         <div class="mdc-layout-grid grid">
           <div class="mdc-layout-grid__inner">
             <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 charts">
-              <label>Apnea [s]</label>
-              <canvas baseChart height="50" [datasets]="lineChartDataApnea" [labels]="lineChartLabels"
+              <label>Apnea avg. [s]</label>
+              <canvas baseChart height="50" [datasets]="lineChartDataApnea" [labels]="lineChartLabelsHypo"
                 [options]="lineChartOptionsApnea" [colors]="lineChartColors" [legend]="lineChartLegend"
                 [chartType]="lineChartType" [plugins]="lineChartPlugins">
               </canvas>
@@ -56,7 +56,7 @@
           <div class="mdc-layout-grid__inner">
             <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 charts">
               <label>Abdominal activation [% Fmax]</label>
-              <canvas baseChart height="50" [datasets]="lineChartDataFmax" [labels]="lineChartLabels"
+              <canvas baseChart height="50" [datasets]="lineChartDataFmax" [labels]="lineChartLabelsHypo"
                 [options]="lineChartOptionsFmax" [colors]="lineChartColors" [legend]="lineChartLegend"
                 [chartType]="lineChartType" [plugins]="lineChartPlugins">
               </canvas>

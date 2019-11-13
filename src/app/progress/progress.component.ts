@@ -153,6 +153,68 @@ export class ProgressComponent implements OnInit {
       }]
     }
   };
+  public lineChartDataApnea: ChartDataSets[] = [
+    {
+      data: [
+        5,
+        6,
+        6,
+        6,
+        8,
+        8,
+        8,
+        9,
+        10,
+        10,
+        12,
+        12,
+        14
+      ]
+    }
+  ];
+  public lineChartDataFmax: ChartDataSets[] = [
+    {
+      data: [
+        5,
+        6,
+        6,
+        6,
+        8,
+        8,
+        8,
+        9,
+        10,
+        10,
+        12,
+        12,
+        14
+      ]
+    }
+  ];
+
+  public lineChartLabelsHypo: Label[] = ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12'];
+  public lineChartOptionsApnea = {
+    responsive: true,
+    scales: {
+      yAxes: [{
+        ticks: {
+          max: 14,
+          min: 0
+        }
+      }]
+    }
+  };
+  public lineChartOptionsFmax = {
+    responsive: true,
+    scales: {
+      yAxes: [{
+        ticks: {
+          max: 85,
+          min: 55
+        }
+      }]
+    }
+  };
   public lineChartColors: Color[] = [
     {
       borderColor: 'black',
