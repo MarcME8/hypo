@@ -22,7 +22,6 @@
     "@material/layout-grid": "^4.0.0",
     "chart.js": "^2.9.2",
     "express": "^4.17.1",
-    "hammerjs": "^2.0.8",
     "ng2-charts": "^2.3.0",
     "path": "^0.12.7",
     "rxjs": "~6.4.0",
@@ -31,9 +30,7 @@
     "@angular-devkit/build-angular": "~0.803.3",
     "@angular/cli": "~8.3.3",
     "@angular/compiler-cli": "~8.2.4",
-    "@angular/language-service": "~8.2.4",
     "@types/node": "~8.9.4",
-    "codelyzer": "^5.0.0",
     "ts-node": "~7.0.0",
     "typescript": "~3.5.3"
   },
@@ -41,9 +38,7 @@
     "@angular-devkit/build-angular": "~0.803.3",
     "@angular/cli": "~8.3.3",
     "@angular/compiler-cli": "~8.2.4",
-    "@angular/language-service": "~8.2.4",
     "@types/node": "~8.9.4",
-    "codelyzer": "^5.0.0",
     "ts-node": "~7.0.0",
     "typescript": "~3.5.3"
   },
